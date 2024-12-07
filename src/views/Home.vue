@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 La neuropsicología, como disciplina interdisciplinar, estudia la interacción entre cerebro, conducta y entorno, abordando funciones cognitivas como memoria, atención y aprendizaje. Destaca el papel de estructuras cerebrales como la corteza prefrontal, el hipocampo y los ganglios basales en procesos clave. La memoria se clasifica en sensorial, corto plazo y largo plazo, mientras que la atención incluye tipos como selectiva y sostenida. El aprendizaje se fundamenta en teorías como el condicionamiento clásico y el constructivismo. La plasticidad cerebral permite adaptar conexiones neuronales, subrayando la importancia de experiencias enriquecedoras para el desarrollo integral y continuo.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Conocer el cerebro es descubrir el potencial infinito del ser humano para aprender, adaptarse y transformar su vida y su entorno.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +146,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: #CBC9F9 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #6F6E88 !important
   &:hover
     .icon
       transform: scale(1.06)

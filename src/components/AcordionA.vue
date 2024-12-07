@@ -21,7 +21,7 @@
       .acordion__accion(v-if="tipo === 'b'")
         .acordion__accion__btn--b.h3.mb-0
           i.fas.fa-angle-up(v-if="selected === elm.id")
-          i.fas.fa-angle-down(v-else)
+          i.fas.fa-angle-down.text-red(v-else)
           .indicador__container.indicador--left(v-if="mostrarIndicador && index === 1")
             .indicador--click.indicador--sm
     

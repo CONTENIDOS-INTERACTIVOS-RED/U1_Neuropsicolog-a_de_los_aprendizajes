@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 El estudio de la neuropsicología y su relación con el aprendizaje ofrece al estudiante una comprensión integral de los principios neuropsicológicos que fundamentan el desarrollo cognitivo, emocional y social. A través de esta formación, se exploran temas como la definición y principios de la neuropsicología, el desarrollo cerebral en diferentes etapas del ciclo vital, y las estructuras cerebrales clave en procesos como memoria, atención y aprendizaje. 
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
