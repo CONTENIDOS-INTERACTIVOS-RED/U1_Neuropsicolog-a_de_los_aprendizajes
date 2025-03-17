@@ -15,7 +15,7 @@
       .col-2.d-none.d-lg-block(data-aos="fade-right")
         img.h-100(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
       .col-12.col-lg-10(data-aos="fade-left")
-        span El entendimiento del ser humano desde una perspectiva holística representa un desafío considerable, pues somos el resultado de diversas esferas: biológica, psicológica, química, neurológica, física y genética. En respuesta a esta complejidad surge la neuropsicología, una ciencia que busca integrar estas dimensiones para comprender quiénes somos y cómo se originan nuestras conductas.
+        span En las etapas tempranas, el cerebro es altamente receptivo y moldeable. Las  interacciones sociales, estímulos sensoriales y aprendizaje activo son esenciales para un desarrollo saludable. En contraste, la privación de estímulos puede ocasionar déficits cognitivos y emocionales, destacando la importancia de entornos enriquecedores para el desarrollo cerebral óptimo.
 
     h2 Patrones de desarrollo cerebral
     p.mb-4 El desarrollo cerebral sigue cuatro patrones principales:
@@ -88,6 +88,17 @@
         img.h-100(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
         p.mb-0(data-aos="fade-up") El aprendizaje es un proceso mediante el cual un individuo adquiere conocimientos, habilidades, actitudes o comportamientos a través de la experiencia, la educación o la práctica. Su estudio, que abarca diversas disciplinas, ha evolucionado significativamente a lo largo del tiempo bajo la influencia de diferentes corrientes filosóficas, psicológicas y pedagógicas. A continuación, se realiza un recorrido histórico por las principales teorías y enfoques que han moldeado nuestra comprensión del aprendizaje:
+
+    .row.bg-amarillo.bg-full-width.py-4.mb-4
+      div.px-5.pb-md-3.py-4.d-flex
+        .col-12.col-xl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
+          h2.mb-4.pb-2.me-auto ¿Sabías que el aprendizaje es un proceso fundamental para el desarrollo humano?
+          p.mb-5(data-aos="fade-up") En el documento Evolución del aprendizaje: teorías, enfoques e impacto educativo, descubrirá cómo el estudio del aprendizaje ha evolucionado a lo largo del tiempo, influenciado por diversas corrientes filosóficas, psicológicas y pedagógicas. A través de un recorrido histórico, se exploran las principales teorías y enfoques que han transformado nuestra comprensión de cómo adquirimos conocimientos, habilidades y actitudes. Este análisis ofrece una visión integral sobre cómo el aprendizaje se adapta y responde a los desafíos de cada época.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexo_Evolución del aprendizaje.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Evolución del aprendizaje: teorías, enfoques e impacto educativo
+        .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
+          img.h-100(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
 
     h2 Condicionamiento clásico
     p.mb-4 Esta teoría, liderada por el fisiólogo Ivan Pávlov, plantea que toda conducta no proviene del pensamiento, sino de la estimulación sensorial externa, que genera dicho pensamiento. Describe un aprendizaje en el que un organismo establece una asociación entre un estímulo neutro y un estímulo incondicionado que provoca una respuesta natural.

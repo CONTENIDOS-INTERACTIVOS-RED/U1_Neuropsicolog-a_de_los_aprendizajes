@@ -51,7 +51,7 @@
               img.mb-4(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Hipocampo
-                p.text-small.px-4.text-center.pb-2 Hubicado en el lóbulo temporal, es clave en la formación de recuerdos nuevos y la consolidación de la memoria a largo plazo, especialmente la declarativa.
+                p.text-small.px-4.text-center.pb-2 Ubicado en el lóbulo temporal, es clave en la formación de recuerdos nuevos y la consolidación de la memoria a largo plazo, especialmente la declarativa.
           .col-10.col-md-6.col-lg-6.mb-4.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
@@ -171,6 +171,10 @@
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')  
 
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 
@@ -181,6 +185,92 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Aprendizaje y Neurociencias',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Según la teoría del condicionamiento clásico, ¿quién fue su líder?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'B.F. Skinner', esCorrecta: false },
+            { id: 'b', texto: 'E.L. Thorndike', esCorrecta: false },
+            { id: 'c', texto: 'Iván Pávlov', esCorrecta: true },
+            { id: 'd', texto: 'Albert Bandura', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué ley propone que una respuesta seguida de consecuencias satisfactorias tiende a repetirse?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Ley de ejercicio', esCorrecta: false },
+            { id: 'b', texto: 'Ley del efecto', esCorrecta: true },
+            { id: 'c', texto: 'Ley de preparación', esCorrecta: false },
+            { id: 'd', texto: 'Ley de asociación', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Luna, está viendo su mamá como se maquilla y además le encanta ver videos en internet de maquillaje. Y lo replica cuando juega a ser reina. Que tipo de aprendizaje esta activo',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Aprendizaje por imitación', esCorrecta: true },
+            { id: 'b', texto: 'Aprendizaje social', esCorrecta: false },
+            { id: 'c', texto: 'Aprendizaje colaborativo', esCorrecta: false },
+            { id: 'd', texto: 'Aprendizaje significativo', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Qué función cumplen los ganglios basales?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Regulación de emociones', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Control de atención y regulación de comportamientos',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Toma de decisiones', esCorrecta: false },
+            { id: 'd', texto: 'Formación de recuerdos', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente observación: Has captado la función de los ganglios basales de manera precisa. Mantén ese buen enfoque analítico.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'La corteza cingulada anterior está involucrada en la regulación emocional y la atención.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
