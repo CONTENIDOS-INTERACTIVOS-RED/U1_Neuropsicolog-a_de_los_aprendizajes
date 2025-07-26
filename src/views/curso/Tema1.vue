@@ -109,20 +109,29 @@
             span En conclusión, la <strong>neuropsicología</strong> es una disciplina clave para abordar la complejidad del ser humano desde una visión integradora que combina biología, psicología y neurociencia. Su contribución no solo amplía el entendimiento del comportamiento y las capacidades cognitivas, sino que también promueve estrategias prácticas para mejorar la calidad de vida, las relaciones interpersonales y el bienestar general.
 
     .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-5.pb-0
+      .px-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/116428?page=1") García-Castellón Valentín-Gamazo, C. Blanco López, J. L. & Miguel Pérez, V. (2017). Neurociencia y neuropsicología educativa
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/50292") Portellano, J. A. (2005). Introducción a la neuropsicología
+            
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href=" https://www.youtube.com/watch?v=09Knu34bYdw") Universidad de Deusto / Deustuko Unibertsitatea. 2015 Conceptos básicos del Business Intelligence.
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/MCwuLyR-uxY?si=MH--uj4IU9kYXvb_") González, W (2022) NEUROPSICOLOGÍA CLÍNICA PRÁCTICA conceptos generales clase 1 [Vídeo]
+            
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/114035 ") Curto Díaz, J. & Conesa Caralt, J. (Il.). (2015). ¿Cómo crear un data warehouse?: ( ed.). Editorial UOC. 
+              a.text-small.text-primary(target="_blank", href="https://www.neuropsicologueando.com/neuropsicologia/") Neuropsicología. (2018, octubre 28). Neuropsicologueando
+          
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 
 </template>

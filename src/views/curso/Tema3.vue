@@ -176,6 +176,31 @@
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
 
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/46145?page=1") Moraine, P. & Rivas Lorenzo, S. (2016). Las funciones ejecutivas del estudiante: mejorar la atención, la memoria, la organización y otras funciones para facilitar el aprendizaje
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/68422?page=23") Morales Navarro, M. & Burgos Gallegos, H. (2015). Descubriendo un cerebro que aprende en el aula
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/live/XRz4yB8-Fz8?si=OqDKuk1j5FaLRDSi") UNAM Psicología UDEMAT (2021) ¿Qué caracteriza a los procesos cognitivos? [Vídeo]
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.ebsco.com/research-starters/health-and-medicine/brain-structure") EBESCO. Estructura del cerebro
+          
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
 </template>
 
 <script>

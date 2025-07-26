@@ -189,20 +189,29 @@
           p.pe-xl-5.mb-0 El estudio del aprendizaje es amplio y multidimensional, lo que sugiere que no hay un único enfoque que funcione para todos. Cada teoría y forma de aprendizaje ofrece insights valiosos que pueden ser aplicados en la educación formal y en el desarrollo personal. Lo que sí se puede concluir es que el proceso de aprender para el ser humano no finaliza, sin embargo sus primeros años de vida, su entorno cultural y social, así como la interacción con adultos o educadores, tiene una incidencia alta en el proceso.
 
     .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-5.pb-0
+      .px-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/113132?page=17") Stamm, J. (2018). Neurociencia infantil: el desarrollo de la mente y el poder del cerebro de 0 a 6 años
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/47829?page=39") Siegel, D. J. (2007). La mente en desarrollo: cómo interactúan las relaciones y el cerebro para modelar nuestro ser
+            
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=ElgUy_7eYLQ") Universidad de Deusto / Deustuko Unibertsitatea. 2015 Introducción al Business Intelligence.
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=RZUxf4jMTrg") Vidas Ajenas (2024) Así funciona tu cerebro. David Bueno, catedrático de neuroeducación [Vídeo]
+            
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/101030") Curto Díaz, J. (2016). Introducción al business intelligence: ( ed.). Editorial UOC. 
+              a.text-small.text-primary(target="_blank", href="https://www.oas.org/udse/dit2/relacionados/archivos/desarrollo-cerebral.aspx") Desarrollo del cerebro basado en la experiencia temprana y su efecto en la salud, el aprendizaje y la conducta
+          
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 
 </template>
